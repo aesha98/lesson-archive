@@ -44,7 +44,7 @@ Object.getPrototypeOf(Player.prototype); // returns Person.prototype
 const player1 = new Player('steve', 'X');
 const player2 = new Player('also steve', 'O');
 
-player1.sayName(); // Hello, I'm steve!
+player1.sayName(); // Hello, I'm ste
 player2.sayName(); // Hello, I'm also steve!
 
 player1.getMarker(); // My marker is 'X'
